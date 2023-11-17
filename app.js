@@ -20,7 +20,7 @@ app.use('assets', express.static(__dirname + 'public/assets'));
 
 //Setup routes
 
-const homeRouter = require('./routes/home');
+const homeRouter = require('./routes/homeRouter');
 
 app.use('/', homeRouter);
 
